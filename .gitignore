@@ -1,0 +1,107 @@
+# nohup
+nohup.out
+*/tmp
+*.ipynb_checkpoints*
+*/tmp*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Maven
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+mllib/target/
+
+# Notebooks:
+#notebooks/
+
+# OSX
+.DS_Store
+
+# Python
+*.pyc
+pz_models/dpp/.ipynb_checkpoints/
+
+# Model temp files
+models/*/temp/
+models/*/output/
+
+# model files
+*.tmp
+*.pkl
+*.m
+*tmp*
+#pz_models/model_dpp/output/
+pz_models/temp/
+
+
+# Vim
+.*.swp
+.*.swo
+.*.swn
+.*.swl
+.*.swm
+.*.swk
+
+#nohup
+nohup*
+
+*/.ipynb_checkpoints/
