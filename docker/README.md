@@ -24,7 +24,7 @@ docker-machine create --driver virtualbox --virtualbox-cpu-count 2 --virtualbox-
  --virtualbox-disk-size "10000" spark
 ```
 
-```
+```sh
 docker-machine env spark
 export DOCKER_TLS_VERIFY="1"
 export DOCKER_HOST="tcp://192.168.99.101:2376"
@@ -33,6 +33,24 @@ export DOCKER_MACHINE_NAME="spark"
 docker-machine env spark
 ```
 
+```{r, engine='bash', count_lines}
+
+```
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```
+No language indicated, so no syntax highlighting.
+But let's throw in a <b>tag</b>.
+```
 
 
   2. build image or load from a tar file
