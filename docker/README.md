@@ -11,17 +11,22 @@ Create a virtual box, called 'spark'
 
 ```
 docker-machine create --driver virtualbox --virtualbox-cpu-count 2 --virtualbox-memory "4096" \
- --virtualbox-disk-size "10000" spark
+ --virtualbox-disk-size "10000" ipyspark
 ```
 
 Setup virtual box environment
 ```sh
-docker-machine env spark
+docker-machine env ipyspark
 export DOCKER_TLS_VERIFY="1"
-export DOCKER_HOST="tcp://192.168.99.101:2376"
-export DOCKER_CERT_PATH="/Users/zyan/.docker/machine/machines/spark"
-export DOCKER_MACHINE_NAME="spark"
-docker-machine env spark
+export DOCKER_HOST="tcp://192.168.99.100:2376"
+export DOCKER_CERT_PATH="/Users/zyan/.docker/machine/machines/ipyspark"
+export DOCKER_MACHINE_NAME="ipyspark"
+docker-machine env ipyspark
+```
+
+```sh
+docker-machine ls
+docker-machine stop/start
 ```
 
 2. Build image or load from a tar file
